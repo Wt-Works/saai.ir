@@ -1,0 +1,6 @@
+cd /srv/saai.ir/
+cd ./src/build && rm -rf *
+cd ../../www && rm -rf captcha.fcgi root.fcgi
+cd .. && chmod -R 0755 ./
+cd .. && rm -rf saai.ir.zip && zip saai.ir.zip -r saai.ir && mv ./saai.ir.zip ~/Desktop/
+

@@ -1,0 +1,91 @@
+@charset "utf-8";
+#dvContact input {
+	font-family: Tahoma, 'Verdana Sans';
+}
+#dvContact {
+	font-family: Tahoma, 'Verdana Sans';
+	font-size: 13px;
+	font-weight: normal;
+	direction: rtl;
+}
+#dvCAcademies {
+	text-align: right;
+	direction: rtl;
+}
+#dvCAcademies * {
+	font-family: Tahoma, 'Verdana Sans';
+}
+#dvCAcademies select {
+	min-width: 150px;
+}
+#dvAcademiesForm {
+	direction: ltr;
+}
+#dvAcademiesFormWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+#dvAcademiesForm {
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#dvAcademiesForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvAcademiesForm tr, #dvAcademiesForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvAcademiesForm tr *, #dvAcademiesForm td * {
+	height: auto !important;
+}
+#dvAcademiesForm select, #dvAcademiesForm input, #dvAcademiesForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvAcademiesForm textarea {
+	height: 60px !important;
+}
+#dvAcMoreInfo {
+	direction: ltr;
+	text-align: center;
+}
+#dvAcMoreInfoInner tr, #dvAcMoreInfoInner td {
+	text-align: right;
+	vertical-align: top;
+}
+#dvAcCourseForm {
+	direction: ltr;
+}
+#dvAcCoursesFormWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+#dvAcCourseForm {
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#dvAcCourseForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvAcCourseForm tr, #dvAcCourseForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvAcCourseForm tr *, #dvAcCourseForm td * {
+	height: auto !important;
+}
+#dvAcCourseForm select, #dvAcCourseForm input, #dvAcCourseForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvAcCourseForm textarea {
+	height: 60px !important;
+}
+

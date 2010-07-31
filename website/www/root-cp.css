@@ -1,0 +1,254 @@
+@charset "utf-8";
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #C8C8C8;
+	font-size: 13px;
+}
+.link {
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+	color: #00f;
+}
+textarea {
+	resize: none;
+}
+.btnRoot {
+	font-family: Tahoma, 'Verdana Sans';
+	display: block;
+	margin: 15px auto;
+	font-weight: normal;
+	width: 100px;
+	height: 25px;
+}
+.capRoot {
+	display: block;
+	margin: 10px auto;
+	border: 1px solid #000;
+}
+.ltrInput {
+	direction: ltr;
+	text-align: left;
+}
+.inplace span:hover {
+	background-color: gray;
+}
+.tbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+}
+.tbl td {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	text-align: right;
+}
+.tblHeader {
+	text-align: center !important;
+	font-weight: bolder;
+}
+.tblButton {
+	font-family: Tahoma, 'Verdana Sans';
+	font-weight: normal;
+	padding: 1px 9px;
+}
+.btnDialogs {
+	font-family: Tahoma, 'Verdana Sans';
+	display: block-inline;
+	margin: 15px auto;
+	font-weight: normal;
+	width: 100px;
+	height: 25px;
+}
+.Wt-dialog, .Wt-outset, .Wt-msgbox-buttons {
+	font-family: Tahoma, 'Verdana Sans';
+	text-align: left;
+	direction: rtl;
+}
+.Wt-dialog .titlebar {
+	text-align: center !important;
+}
+.Wt-btn {
+	font-family: Tahoma, 'Verdana Sans';
+}
+.dvDialogButtons {
+	text-align: center !important;
+}
+#dvDate {
+	width: 100% !important;
+}
+#dvDate select {
+	width: 33% !important;
+	display: inline-block;
+}
+#dvTime select {
+	width: 50% !important;
+	display: inline-block;
+}
+#dvLogin {
+	position: relative;
+	margin: 0 auto;
+	padding: 25px;
+	border: 1px solid #666;
+	top: 99px;
+	width: 300px;
+	font: bold 1em Tahoma, 'Verdana Sans';
+	letter-spacing: 1px;
+	background: url(stop.png) no-repeat top left;
+}
+#dvLoginInner {
+	text-align: right;
+	width: 100%;
+}
+#dvLoginInner td {
+	text-align: right;
+	vertical-align: middle;
+}
+#dvLoginInner td input {
+	width: 100%;
+}
+#dvLoginHeader {
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: Arial;
+}
+#dvBody {
+	margin: 0;
+	padding: 0;
+	background-color: #C8C8C8;
+}
+#dvBodyInner {
+	position:relative;
+	min-width: 992px;
+	margin: 0;
+	padding: 0;
+	border-bottom:1px solid #515151;
+	background: #454545;
+}
+#dvHeader {
+	position: relative;
+	background: #515151 url(root_bg_header.png) repeat-x;
+	height: 68px;
+	font: bold 1em Arial;
+	color: #fff;
+}
+#dvLogo {
+	padding: 15px;
+	position: relative;
+	font: bold 2em Arial;
+	color: #fff;
+	letter-spacing: 3px;
+}
+#dvMenusWrapper {
+	position: relative;
+	margin: 0;
+	width: 20%;
+	min-width: 210px;
+	float: right;
+	color: #C7C7C7;
+}
+#dvMenusInner {
+	padding: 40px;
+}
+#dvMenus {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: right;
+	padding-bottom: 50px;
+}
+#dvMenus ul {
+	list-style: none;
+	margin: 0;
+	padding: 8px 0 0 0;
+	text-indent: 5px;
+	border: 0;
+	font: bold 1em Tahoma, Verdana Sans;
+}
+#dvMenus ul li {
+	display: block;
+	border-bottom: solid 1px #C7C7C7;
+	width: 100%;
+}
+#dvMenus ul li a {
+	text-decoration: none;
+	color: #C7C7C7;
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	line-height: 33px;
+	width: 100%;
+	letter-spacing: 2px;
+}
+#dvMenus .itemselected {
+	color: white;
+}
+#dvMenus ul li a:hover {
+	text-decoration: none;
+	border: none;
+	color: white;
+}
+#dvLastLogin {
+	text-align: center;
+}
+#dvLastLoginDetail {
+	text-align: left;
+	letter-spacing: 2px;
+	font-size: 11px;
+	font-family: Verdana, Arial;
+	font-weight: bold;
+	line-height: 17px;
+}
+#dvContentsWrapper {
+	position: relative;
+	margin: 0;
+	width: 80%;
+	min-height: 944px;
+	background: #C8C8C8 url(root_corner.png) no-repeat top right;
+}
+#dvContentsInner {
+	padding: 55px;
+}
+#dvContents {
+	text-align: center;
+	direction: rtl;
+}
+#dvCPages {
+	text-align: right;
+	direction: rtl;
+}
+#dvCPwEmail {
+	font-family: Tahoma, 'Verdana Sans';
+}
+#dvCPwEmail td {
+	text-align: right;
+	vertical-align: middle;
+}
+#dvCPwEmail h3 {
+	letter-spacing: 0;
+	text-align: center;
+	font-family: Arial;
+}
+#dvChangePw, #dvChangeEmail {
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+	direction: ltr;
+	font-family: Tahoma, 'Verdana Sans';
+	font-size: 11px;
+}
+#dvPicValidator .tbl {
+	direction: rtl;
+}
+#dvPicValidator .tbl * {
+	text-align: center;
+	vertical-align: middle;
+}
+#dvPicValidator .ltrCell {
+	direction: ltr;
+}
+#dvPicValidator .btnDialogs {
+	display: block;
+}
+

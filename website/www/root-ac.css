@@ -1,0 +1,185 @@
+@charset "utf-8";
+#dvCMentors {
+	text-align: right;
+	direction: rtl;
+}
+#dvCMentors * {
+	font-family: Tahoma, 'Verdana Sans';
+}
+#dvCMentors select {
+	min-width: 150px;
+}
+#dvMentorsFormWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+#dvMentorsForm {
+	direction: ltr;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#dvMentorsForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvMentorsForm tr, #dvMentorsForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvMentorsForm tr *, #dvMentorsForm td * {
+	height: auto !important;
+}
+#dvMentorsForm td iframe {
+	height: 0 !important;
+}
+#dvMentorsForm select, #dvMentorsForm input, #dvMentorsForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvMentorsForm textarea {
+	height: 60px !important;
+}
+#dvMentorsMoreInfo {
+	direction: ltr;
+	text-align: center;
+}
+#dvMentorsMoreInfoInner tr, #dvMentorsMoreInfoInner td {
+	text-align: right;
+	vertical-align: top;
+}
+#dvMentorsMoreInfo img {
+	display: block !important;
+	margin: 0 auto;
+}
+#dvMCardForm {
+	direction: ltr;
+}
+#dvAcCoursesFormWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+#dvMCardForm {
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#dvMCardForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvMCardForm tr, #dvMCardForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvMCardForm tr *, #dvMCardForm td * {
+	height: auto !important;
+}
+#dvMCardForm select, #dvMCardForm input, #dvMCardForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvMCardForm textarea {
+	height: 60px !important;
+}
+#dvCTerms {
+	text-align: right;
+	direction: rtl;
+}
+#dvCTerms * {
+	font-family: Tahoma, 'Verdana Sans';
+}
+#dvCTerms select {
+	min-width: 150px;
+}
+#dvTermsForm {
+	direction: ltr;
+}
+#dvTermsFormWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+#dvTermsForm {
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#dvTermsForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvTermsForm tr, #dvTermsForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvTermsForm tr *, #dvTermsForm td * {
+	height: auto !important;
+}
+#dvTermsForm td iframe {
+	height: 0 !important;
+}
+#dvTermsForm select, #dvTermsForm input, #dvTermsForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvTermsForm textarea {
+	height: 60px !important;
+}
+#dvCTyros {
+	text-align: right;
+	direction: rtl;
+}
+#dvCTyros * {
+	font-family: Tahoma, 'Verdana Sans';
+}
+#dvCTyros select {
+	min-width: 150px;
+}
+#dvTyrosFormWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+#dvTyrosForm {
+	direction: ltr;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#dvTyrosForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvTyrosForm tr, #dvTyrosForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvTyrosForm tr *, #dvTyrosForm td * {
+	height: auto !important;
+}
+#dvTyrosForm td iframe {
+	height: 0 !important;
+}
+#dvTyrosForm select, #dvTyrosForm input, #dvTyrosForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvTyrosForm textarea {
+	height: 60px !important;
+}
+#dvTyrosMoreInfo {
+	direction: ltr;
+	text-align: center;
+}
+#dvTyrosMoreInfoInner tr, #dvTyrosMoreInfoInner td {
+	text-align: right;
+	vertical-align: top;
+}
+#dvTyrosMoreInfo img {
+	display: block !important;
+	margin: 0 auto;
+}
+

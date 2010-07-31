@@ -1,0 +1,598 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	margin-bottom: 295px;
+	padding: 0;
+	background: #3873B3 url(bg.png) bottom repeat-x;
+	font-size: 13px;
+}
+.link {
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+	color: #00f;
+}
+textarea {
+	resize: none;
+}
+.btnHome {
+	font-family: Tahoma, 'Verdana Sans';
+	margin: 15px auto;
+	font-weight: normal;
+	width: 100px;
+	height: 25px;
+	font-size: 11px;
+	padding: 2px 15px;
+}
+.btnSide {
+	font-family: Tahoma, 'Verdana Sans';
+	margin: 15px auto;
+	font-weight: normal;
+	width: 80px;
+	height: 22px;
+	font-size: 11px;
+	padding: 2px 15px;
+}
+.inputHome {
+	font-size: 13px;
+	font-family: Tahoma, 'Verdana Sans';
+	font-weight: normal;
+}
+.ltrInput {
+	direction: ltr;
+	text-align: left;
+}
+.btnDialogs {
+	display: block;
+	margin: 15px auto;	
+	width: 100px;
+	height: 25px;
+}
+.Wt-dialog, .Wt-outset, .Wt-msgbox-buttons {
+	font-family: Tahoma, 'Verdana Sans';
+	text-align: left;
+	direction: rtl;
+}
+.Wt-dialog .titlebar {
+	text-align: center !important;
+}
+.Wt-btn {
+	font-family: Tahoma, 'Verdana Sans';
+}
+#dvImgCentered {
+	text-align: center !important;
+}
+#dvImgCentered img {
+	display: block-inline !important;
+}
+.tbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+}
+.tbl td {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	text-align: right;
+}
+.tblHeader {
+	text-align: center !important;
+	font-weight: bolder;
+}
+.tblButton {
+	font-family: Tahoma, 'Verdana Sans';
+	font-weight: normal;
+	padding: 1px 9px;
+}
+#dvNoScript {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+.dvNoScript {
+	direction: rtl;
+	text-align: center;
+	font: bold 1em Tahoma, 'Verdana Sans';
+	padding: 5px;
+	border: 1px solid #FF0000;
+	background: #FFA4A4;
+}
+#dvHeader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background: #003366 url(bg_header.png) no-repeat;
+}
+#dvMainTop {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 16px;
+	top: 50px;
+	background: url(bg_main_top.png) center top no-repeat;
+}
+#dvMainBottom {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 16px;
+	background: url(bg_main_bottom.png) center bottom no-repeat;
+}
+#dvMain {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	min-height: 1350px;
+	background: url(bg_main.png) repeat-y;
+}
+#dvLogo {
+	position: relative;
+	margin: 0 auto;
+	width: 928px;
+	height: 147px;
+	background: url(bg_logo.jpg) no-repeat;
+}
+#dvNavMenu {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	left: 0;
+	top: 225px;
+	background: #003366;
+	z-index: 1;
+}
+#dvCopyright {
+	position: relative;
+	margin: 0 auto;
+	min-width: 960px;
+	width: 100%;
+	top: 105px;
+	font: bold .8em Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	color: #999;
+	line-height: 17px;
+	text-align: center;
+}
+#dvGeoInfo {
+	position: relative;
+	margin: 0 auto;
+	min-width: 960px;
+	width: 100%;
+	top: 115px;
+	font: bold .7em Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	color: #999;
+	line-height: 17px;
+	text-align: center;
+}
+#dvPowered {
+	position: relative;
+	margin: 0 auto;
+	min-width: 960px;
+	width: 100%;
+	top: 285px;
+	font: bold 1em Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	letter-spacing: 2px;
+	color: #000;
+	line-height: 17px;
+	text-align: center;
+}
+#dvPowered ul {
+	list-style: none;
+	padding: 0;
+	border: 0;
+}
+#dvPowered ul li {
+	padding-left: 1em;
+	text-transform: uppercase;
+	display: inline;
+}
+#dvPowered ul a {
+	text-decoration: none;
+	color: #ccc;
+}
+#dvPowered ul a:before {
+	content: "|";
+	padding-right: 1em;
+}
+#dvPowered ul a:hover {
+	border: none;
+	color: #ff0;
+}
+#dvMainWrapper {
+	position: relative;
+	margin: 0 auto;
+	top: 70px;
+	width: 910px;
+	font: bold 1em Tahoma, 'Verdana Sans';
+	clear: both;
+	float: none;
+}
+#dvMainContent {
+	position: relative;
+	margin: 0 auto;
+	padding: 8px 24px;
+	padding-bottom: 85px;
+	width: 620px;
+	float: left;
+	direction: rtl;
+	text-align: justify;
+	font-weight: normal;
+	line-height: 23px;
+}
+#dvBreak {
+	clear: both;
+	float: none;
+}
+#dvMainSide {
+	position: relative;
+	margin: 0;
+	padding: 0 10px;
+	width: 200px;
+	float: right;
+}
+#dvMainMenu {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: right;
+}
+#dvMainMenu ul {
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 30px;
+	text-indent: 5px;
+	list-style: none;
+}
+#dvMainMenu ul ul {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-indent: 25px;
+	list-style: none;
+}
+#dvMainMenu li {
+	padding-top: 8px;
+	border-bottom: 1px dashed #999;
+	width: 100%;
+}
+div#dvMainMenu a {
+	color: #666;
+	font-family: Tahoma, 'Verdana Sans';
+	font-size: 11px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding-bottom: 5px;
+	display: block;
+	width: 100%;
+}
+div#dvMainMenu .itemselected {
+	color: black;
+}
+div#dvMainMenu a:hover {
+	color: #333;
+	text-decoration: none;
+}
+#dvMenu li:first-child {
+	border-top: 1px dashed #999;
+}
+.capSide {
+	display: block;
+	margin: 5px auto;
+	border: 1px solid #000;
+}
+.btnSide {
+	font-family: Tahoma, 'Verdana Sans';
+	display: block;
+	margin: 0 auto;
+	font-weight: normal;
+}
+.agreementBox, .agreementBox * {
+	width: 400px !important;
+	height: 150px !important;
+}
+#dvMainFollowing {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	margin-top: 35px;
+	width: 100%;
+	font-size: 10px;
+	background: url(bg_side_header.png) no-repeat top center;
+	text-align: right;
+}
+#dvMainFollowing h5 {
+	font-size: 11px;
+	color: #333;
+	background: url(bg_side_hicon.png) no-repeat right center;
+	padding-right: 20px;
+}
+#dvMainFollowingInner {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	font-weight: normal;
+}
+#dvMainFollowingInner table {
+	width: 100%;
+}
+#dvMainFollowingInner td {
+	vertical-align: middle;
+	text-align: right;
+}
+#dvMainFollowingInner input {
+	width: 100%;
+	margin: 4px auto;
+}
+#dvMainAcademies {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	margin-top: 55px;
+	width: 100%;
+	font-size: 10px;
+	background: url(bg_side_header.png) no-repeat top center;
+	text-align: right;
+}
+#dvMainAcademies h5 {
+	font-size: 11px;
+	color: #333;
+	background: url(bg_side_hicon.png) no-repeat right center;
+	padding-right: 20px;
+}
+#dvMainAcademiesInner {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	font-weight: normal;
+}
+#dvMainAcademiesInner table {
+	width: 100%;
+}
+#dvMainAcademiesInner td {
+	vertical-align: middle;
+	text-align: right;
+}
+#dvMainAcademiesInner input {
+	width: 100%;
+	margin: 4px auto;
+}
+#dvForgetFormAcademy {
+	width: 80%;
+}
+#dvForgetFormAcademy input {
+	width: 110px;
+	margin: 4px auto;
+}
+#dvMainVote {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	margin-top: 55px;
+	width: 100%;
+	font-size: 10px;
+	background: url(bg_side_header.png) no-repeat top center;
+	text-align: right;
+}
+#dvMainVote h5 {
+	font-size: 11px;
+	color: #333;
+	background: url(bg_side_hicon.png) no-repeat right center;
+	padding-right: 20px;
+}
+#dvMainVoteInner {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	font-weight: normal;
+}
+#dvMainVoteInner table {
+	width: 100%;
+}
+#dvMainVoteInner td {
+	vertical-align: middle;
+	text-align: right;
+}
+#dvMainVoteInner input {
+	width: 100%;
+	margin: 4px auto;
+}
+#dvMainVoteInnerRadio {
+	direction: rtl;
+}
+#dvMainVoteInnerRadio legend {
+	white-space: normal !important;
+}
+#dvMainVoteInnerRadio input {
+	width: auto !important;
+	margin: auto !important;
+}
+#dvMainVoteInnerRadio span {
+	white-space: normal !important;
+}
+#dvCContact {
+	position: relative;
+	margin: 0 auto;
+	direction: rtl;
+	width: 350px;
+	font-size: 11px;
+	padding-top: 75px;
+}
+#dvContactForm {
+	direction: ltr;
+}
+#dvContactForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvContactForm tr, #dvContactForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvContactForm tr *, #dvContactForm td * {
+	height: auto !important;
+}
+#dvContactForm select, #dvContactForm input, #dvContactForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvContactForm textarea {
+	height: 100px !important;
+}
+#dvContactFormButtons {
+	text-align: left;
+	direction: rtl;
+}
+#dvContactFormButtons .btnHome {
+	display: block-inline;
+}
+#dvFirstLogin .btnHome {
+	display: block;
+	margin: 15px auto;
+}
+#dvFirstLogin h3, #dvFirstLogin h2 {
+	letter-spacing: 0;
+	text-align: center;
+	font-family: Arial;
+	margin: 0;
+}
+#dvFirstLogin td {
+	text-align: right;
+	vertical-align: middle;
+}
+#dvEmailFL, #dvPwFL, #dvConfirmFL {
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+	direction: ltr;
+	text-align: right !important;
+	font-family: Tahoma, 'Verdana Sans';
+	font-size: 11px;
+}
+#dvPwFL {
+}
+#dvDate {
+	width: 100% !important;
+}
+#dvDate select {
+	width: 33% !important;
+	display: inline-block;
+}
+#dvRegister {
+	direction: rtl;
+}
+#dvReturnHome, #dvReturnHome * {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+#dvRegForm {
+	margin-top: 35px;
+	text-align: center;
+	direction: ltr;
+	font-weight: normal;
+}
+#dvRegForm .tbl {
+	direction: rtl;
+	font-size: 11px;
+}
+#dvRegInner {
+	margin: 0 auto;
+}
+#dvRegForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvRegForm tr, #dvRegForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvRegForm tr *, #dvRegForm td * {
+	height: auto !important;
+}
+#dvRegForm select, #dvRegForm input, #dvRegForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvRegForm textarea {
+	height: 60px !important;
+}
+#dvRegNotice {
+	direction: rtl;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 35px;
+	width: 700px;
+}
+#dvAcMoreInfo, #dvMentorsMoreInfo {
+	direction: ltr;
+	text-align: center;
+}
+#dvAcMoreInfoInner tr, #dvAcMoreInfoInner td, #dvMentorsMoreInfoInner tr, #dvMentorsMoreInfoInner td {
+	text-align: right;
+	vertical-align: top;
+}
+#dvTyroFormWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+#dvTyroForm {
+	direction: ltr;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#dvTyroForm * {
+	font-family: Tahoma, 'Verdana Sans';
+	overflow: visible;
+}
+#dvTyroForm tr, #dvTyroForm td {
+	text-align: right;
+	vertical-align: top;
+	height: auto !important;
+	overflow: visible;
+}
+#dvTyroForm tr *, #dvTyroForm td * {
+	height: auto !important;
+}
+#dvTyroForm td iframe {
+	height: 0 !important;
+}
+#dvTyroForm select, #dvTyroForm input, #dvTyroForm textarea {
+	font-size: 12px;
+	direction: rtl;
+}
+#dvTyroForm textarea {
+	height: 60px !important;
+}
+#dvRegComments {
+	direction: rtl;
+	text-align: right;
+	font-weight: normal;
+	margin: 0 auto;
+	width: 700px;
+}
+#dvPicValidator .tbl {
+	direction: rtl;
+}
+#dvPicValidator .tbl * {
+	text-align: center;
+	vertical-align: middle;
+}
+#dvPicValidator .ltrCell {
+	direction: ltr;
+}
+#dvPicValidator .btnDialogs {
+	display: block;
+}
+
+
